@@ -1,0 +1,10 @@
+New log file opened at Wed Apr 15 21:34:40 CEST 2015 by 1783@dembol-Inspiron-7720
+Taking next connection to: 46405
+New client attempting to connect on port: 35753-46405
+  Address = /127.0.1.1:46405
+This client on port 35753 has uuid 7627725e-6203-408a-9bfa-b24121a6240a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-7627725e-6203-408a-9bfa-b24121a6240a
+Taking next connection to: 46405
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 46405

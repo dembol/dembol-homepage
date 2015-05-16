@@ -1,0 +1,11 @@
+@()
+
+@head = {@components.commons.head()}
+
+@body = {
+    @components.commons.menu()
+    @components.commons.footer()
+    @components.commons.javascript()
+}
+
+@templates.main.apply(head, body)

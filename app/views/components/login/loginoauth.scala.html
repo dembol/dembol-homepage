@@ -1,0 +1,21 @@
+@()
+@import play.{Configuration, Play}
+
+<div class="row centered">
+    <div class="col-xs-3 col-sm-3 col-md-3">
+        <div class="well">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Sign in</legend>
+                    <div class="form-group is-empty">
+                        <div class="col-lg-12">
+                            <a class="btn-original btn-block btn-social btn-github" href="https://github.com/login/oauth/authorize?client_id=@Play.application().configuration().getString("github.oauth.client.id")"><i class="fa fa-github"></i>Sign in with GitHub</a>
+                            <a class="btn-original btn-block btn-social btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);"><i class="fa fa-twitter"></i>Sign in with Twitter</a>
+                            <a class="btn-original btn-block btn-social btn-bitbucket" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);"><i class="fa fa-bitbucket"></i>Sign in with Bitbucket</a>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
